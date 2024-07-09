@@ -1,0 +1,123 @@
+[V: A]
+Forest vertex: V: A
+Qset vertex: V: B
+E:
+V: A
+V: B
+
+Forest vertex: V: A
+Qset vertex: V: F
+E:
+V: A
+V: F
+
+[V: A, V: F]
+Forest vertex: V: A
+Qset vertex: V: B
+E:
+V: A
+V: B
+
+Forest vertex: V: F
+Qset vertex: V: C
+E:
+V: C
+V: F
+
+[V: A, V: F, V: B]
+Forest vertex: V: F
+Qset vertex: V: C
+E:
+V: C
+V: F
+
+Forest vertex: V: B
+Qset vertex: V: C
+E:
+V: B
+V: C
+
+Forest vertex: V: B
+Qset vertex: V: D
+E:
+V: B
+V: D
+
+[V: A, V: F, V: B, V: C]
+Forest vertex: V: B
+Qset vertex: V: D
+E:
+V: B
+V: D
+
+Forest vertex: V: C
+Qset vertex: V: E
+E:
+V: C
+V: E
+
+Forest vertex: V: C
+Qset vertex: V: G
+E:
+V: C
+V: G
+
+ [V: A, V: F, V: B, V: C, V: D]
+Forest vertex: V: C
+Qset vertex: V: E
+E:
+V: C
+V: E
+
+Forest vertex: V: C
+Qset vertex: V: G
+E:
+V: C
+V: G
+
+Forest vertex: V: D
+Qset vertex: V: G
+E:
+V: D
+V: G
+
+&[V: A, V: F, V: B, V: C, V: D, V: G]
+Forest vertex: V: C
+Qset vertex: V: E
+E:
+V: C
+V: E
+
+[V: A]
+Forest vertex: V: A
+Qset vertex: V: B
+E:
+V: A
+V: B
+
+Forest vertex: V: A
+Qset vertex: V: C
+E:
+V: A
+V: C
+
+[V: A, V: B]
+Forest vertex: V: A
+Qset vertex: V: C
+E:
+V: A
+V: C
+
+Forest vertex: V: B
+Qset vertex: V: C
+E:
+V: B
+V: C
+
+[V: A, V: B, V: C]
+Forest vertex: V: C
+Qset vertex: V: D
+E:
+V: C
+V: D
+
